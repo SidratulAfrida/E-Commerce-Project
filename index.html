@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Website using HTML CSS & JavaScript</title>
+ <!-- css link -->
+ <link rel="stylesheet" href="css/styles.css" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-top"><b>Shipping available all Over the world!</b></div>
+      <nav>
+        <a href="#" class="logo">ShopX</a>
+        <div class="main_header">
+          <ul class="navbar">
+            <li><a href="https://www.aarong.com/women/accessories/bags.html">Bags</a></li>
+            <li><a href="https://www.myntra.com/dresses">Dresses</a></li>
+            <li><a href="https://infinitymegamall.com/product-category/men/pants/">Pants</a></li>
+            <li><a href="https://www.batabd.com/collections/casual-shoes">Shoes</a></li>
+            <li><a href="https://outwearasia.com/product-category/men/mens-jacket/">Jackets</a></li>
+           
+
+          </ul>
+          <div class="header__icons">
+            <div>
+              <a href=""><i class="bx bx-search"></i></a>
+            </div>
+            <div>
+              <a href="#"><i class="bx bxs-user"></i></a>
+            </div>
+            <div>
+              <a href="#"><i class="bx bx-shopping-bag"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- banner section -->
+    <div id="parallax-wrapper">
+      <section>
+        <div class="p-one parallax-inner">
+          <div class="headline">
+            <div>
+              <h2>Best Quality in Affordable Price!</h2>
+              <p>
+                <b>Quality is always the result of deliberate and intelligent effort.
+                 We invest most of our time and energy into creating excellent designs and achieving high standards. Every aspect, from materials to techniques, is meticulously considered with great attention to detail.</b>
+              </p>
+              <button class="outline_btn">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section>
+      <div class="content-text">
+        <p>
+          <span class="first-letter red">K</span><b>ylie Cosmetics founder and creative director,
+          Kylie Jenner and her mother Kris Jenner launched Kylie 
+          Cosmetics in collaboration with Seed Beauty. The company's debut product,
+           the Lip Kit—which includes a liquid lipstick and lip liner—was released 
+           on November 30, 2015. The initial 15,000 kits were produced by 
+           Seed Beauty and funded by Jenner with $250,000 from her modeling 
+           earnings. In February 2016, the company was renamed Kylie Cosmetics,
+            and production expanded to 500,000 kits. By the end of 2016, Kylie 
+            Cosmetics had generated over $300 million in revenue. This works taught to value a 
+            rationalist design approach that combines utility with simplicity.
+            and seamlessly blends industrial design with fashion,
+              producing functional handbags from luxurious and genuine 
+              materials to enhance people's lives in meaningful ways.</b>
+        </p>
+        <div class="line-break"></div>
+        <p>
+        <b>If our product doesn't satisfy you, we'll take it back. Innovation
+          If our product doesn't satisfy you, we'll take it back. Innovation
+          being the key factor alongside aesthetic, Mlouye has brought
+          unexpected shapes with smart details, functionality and a new luxury
+          feel with a contemporary price point. UK is the company's headquarters is now split between the US, and
+          Turkey. Quality is never an accident. It is always the result of
+          intelligent effort. We spend most of our time and energy for good
+          design and to achieve high quality. Every single detail from material
+          to technique is thought through with obsessive attention.</b>
+        </p>
+      </div>
+    </section>
+
+     <!-- service section -->
+     <section class="services">
+      <h2>Why We are Best in UK</h2>
+      <p>
+        Our commitment to excellence sets us apart. We focus on delivering high-quality products and services, ensuring that every detail meets the highest standards. With a dedication to innovation and customer satisfaction, we consistently provide value and surpass expectations. Our unique blend of quality, reliability, and customer-centric approach makes us the leading choice in the UK.
+      </p>
+
+      <!-- service card -->
+      <div class="service-container">
+        <div class="service-card">
+          <i class="bx bx-line-chart"></i>
+          <h4>Quality Products</h4>
+          <p>
+            We prioritize excellence in every product we offer with the 
+            highest standards of quality,
+             and superior performance. 
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="bx bxs-plane-alt"></i>
+          <h4>Fast Delivery</h4>
+          <p>
+            We ensure prompt and dependable delivery,
+             to you as quickly as possible to 
+             meet your needs with speed and accuracy.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="bx bx-support"></i>
+          <h4>24/7 Online Support</h4>
+          <p>
+            Our dedicated team is available 24/7 to assist you with 
+            any questions or concerns to seamless and satisfying support.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- product category -->
+    <section class="categories">
+      <h2>Categories</h2>
+      <p>
+        Our blend practical design with high-quality,
+         elegant materials. They are thoughtfully created to offer 
+         significant improvements to daily life, providing both 
+         convenience and sophistication in subtle yet impactful ways.
+      </p>
+      <!-- category btn -->
+      <div class="category_btn">
+        <div id="buttons">
+          <button class="button-value" onclick="filterProduct('all')">
+            All
+          </button>
+          <button class="button-value" onclick="filterProduct('Topwear')">
+            Topwear
+          </button>
+          <button class="button-value" onclick="filterProduct('Skirt')">
+            Skirt & Pants
+          </button>
+          <button class="button-value" onclick="filterProduct('Jacket')">
+            Jacket
+          </button>
+          <button class="button-value" onclick="filterProduct('Watch')">
+            Watch
+          </button>
+        </div>
+        <div id="search-container">
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Search product name here.."
+          />
+          <button id="search">Search</button>
+        </div>
+      </div>
+<!--Products card -->
+      <div id="products">
+    </section>
+<!-- contact section -->
+<section class="contact">
+  <h2>Contact us</h2>
+  <p>
+    You can use our online contact form for a swift and hassle-free 
+    way to get in touch with us. This form is designed to make
+     it easy for you to submit your questions or concerns 
+     directly through our website. We are dedicated to 
+     providing prompt support and will ensure that we
+      address your inquiry as soon as possible. 
+      Your satisfaction is important to us, and we
+       strive to offer efficient and effective assistance.
+  </p>
+
+  <div id="contact-container">
+    <input
+      type="email"
+      id="email-input"
+      placeholder="Enter your email address.."
+    />
+    <button id="email">Submit</button>
+  </div>
+</section>
+
+ <!-- footer section -->
+ <hr />
+ <footer>
+   <div>
+     <h5>Quick links</h5>
+     <a href="https://www.aarong.com/women/accessories/bags.html"><p>Bags</p></a>
+     <a href="https://www.batabd.com/collections/casual-shoes"><p>Shoes</p></a>
+     <a href="https://www.myntra.com/dresses"><p>Dresses</p></a>
+     <a href="https://outwearasia.com/product-category/men/mens-jacket/"><p>Jackets</p></a>
+   </div>
+   <div>
+     <h5>Info</h5>
+     <a href="#"><p>About</p></a>
+     <a href="#"><p>Contact us</p></a>
+     <a href="#"><p>Shipping policy</p></a>
+     <a href="#"><p>Blog</p></a>
+   </div>
+   <div>
+     <h5>Our mission</h5>
+     <p>
+       Quality materials, good designs, craftsmanship and sustainability.
+     </p>
+     <div>
+       <i class="bx bxl-facebook-square"></i>
+       <i class="bx bxl-instagram"></i>
+       <i class="bx bxl-youtube"></i>
+       <i class="bx bxl-tiktok"></i>
+       <i class="bx bxl-twitter"></i>
+     </div>
+   </div>
+ </footer>
+
+              <!-- script tags -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
