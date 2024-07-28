@@ -6,4 +6,6 @@
 
 - **View Tools:** Display a list of available products with details such as Bags, Dresses, Pants, Shoes, and Jackets.
 - **Search Products:** Search entries, Topwear, Pants, Watches, and so on.
+  ![Alt Text](https://github.com/SidratulAfrida/E-Commerce-Website-using-HTML-CSS-Javascript/blob/88ca4ea7c39ef23e1c5a132e52fecda1e1724e0f/github-cover.png)
+
 
